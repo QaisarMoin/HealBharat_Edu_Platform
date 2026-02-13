@@ -1,0 +1,57 @@
+# AI Engine Python gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# ML Models
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.pb
+models/
+checkpoints/
+saved_models/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Cache
+.cache/
+__pycache__/
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
